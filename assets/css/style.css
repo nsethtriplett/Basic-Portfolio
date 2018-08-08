@@ -1,0 +1,95 @@
+/* header and navigation stylings */
+
+h1 {
+    background-color: teal;
+    color: white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    text-align: center;
+    width: 25%; 
+    margin-left: 100px;
+    padding: 15px 0px 15px 0px;
+}
+
+h2 {
+    color: teal;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+    background: white;
+    border-bottom: #cccccc 1px solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: teal;
+}
+
+ul {
+    position: relative;
+    margin-left: 800px;
+    
+}
+
+li {
+    display: inline;
+    padding: 0 15 0 15; 
+    font-size: 13.5px;
+    padding: 12px; 
+}
+
+/* main content stylings */
+
+.container2 {
+    width: 100%;
+}
+
+#main-content {
+    position: absolute;
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    bottom: 30px;
+    right: 125px;
+    padding: 0px 20px;
+
+}
+
+#skulls {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px -5px 0px;
+    max-height: 550px;
+}
+
+#elephant {
+    float: left;
+    padding-bottom: 30px;
+    padding-right: 15px;
+
+}
+
+/* footer styling */
+
+footer {
+    position: absolute;
+    width: 98.5%;
+    font-size: 10px;
+    background: #666666;
+    color: white;
+    text-align: center;
+    margin: none;
+    border-top: teal 10px solid;
+}
+
