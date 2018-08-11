@@ -1,9 +1,16 @@
-/* header and navigation stylings */
+/* header and navigation stylings + general page styling */
 
 body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("/congruent_pentagon/pentagon.png")
+}
+
+.header {
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    width: 15%;
+   
 }
 
 h1 {
@@ -14,7 +21,6 @@ h1 {
     text-align: center;
     width: 230px; 
     margin-left: 260px;
-    margin-top: 0px;
     padding: 15px 0px 15px 0px;
 }
 
@@ -22,10 +28,10 @@ h2 {
     color: teal;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 25px;
+
 }
 
 .container {
-    position: relative;
     background: white;
     margin: -25px;
     border-bottom: #cccccc 1px solid;
@@ -38,13 +44,12 @@ a {
 }
 
 a:hover {
-    color: teal;
+    color: lightseagreen;
 
 }
 
-a:visited {
-    color: #777777;
-    
+a:active {
+    color: rgb(124, 255, 248);
 }
 
 ul {
@@ -70,7 +75,7 @@ li {
     overflow: hidden;
     background: white;
     right: 125px;
-    padding: 0px 15px 30px 15px;
+    padding: 0px 15px 40px 15px;
 
 }
 
@@ -84,7 +89,6 @@ li {
 /* footer styling */
 
 footer {
-    display: block;
     position: relative;
     font-size: 10px;
     background: #666666;
@@ -92,10 +96,12 @@ footer {
     margin: 45px -30px 0px -20px;
     text-align: center;
     border-top: teal 10px solid;
+   
 }
 
 .footer {
     padding: 15px 0px;
+
 }
 
 /* contact page styling */
@@ -117,4 +123,16 @@ input[type=submit] {
    text-align: center;
    padding: 10px 20px;
    border: teal solid 1px;
+
 }
+
+input[type=submit]:hover {
+    background-color: lightseagreen;
+
+}
+
+input[type=submit]:active {
+    background-color: rgb(124, 255, 248);
+}
+
+
