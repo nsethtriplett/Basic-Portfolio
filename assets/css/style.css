@@ -4,6 +4,7 @@ body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("/congruent_pentagon/pentagon.png")
+
 }
 
 .header {
@@ -13,8 +14,12 @@ body {
    
 }
 
+/* I had the most trouble attempting to position the h1 element as it is in
+the example images. I spent hours trying to figure out why but I didn't manage it
+without messing up the rest of the page in the process. */
+
 h1 {
-    background-color: teal;
+    background-color: lightseagreen;
     color: white;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 25px;
@@ -22,10 +27,11 @@ h1 {
     width: 230px; 
     margin-left: 260px;
     padding: 15px 0px 15px 0px;
+
 }
 
 h2 {
-    color: teal;
+    color: lightseagreen;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 25px;
 
@@ -35,6 +41,7 @@ h2 {
     background: white;
     margin: -25px;
     border-bottom: #cccccc 1px solid;
+
 }
 
 a {
@@ -49,7 +56,8 @@ a:hover {
 }
 
 a:active {
-    color: rgb(124, 255, 248);
+    color: rgb(7, 209, 209);
+
 }
 
 ul {
@@ -63,6 +71,7 @@ li {
     padding: 0 15 0 15; 
     font-size: 13.5px;
     padding: 12px; 
+
 }
 
 /* main content stylings */
@@ -72,18 +81,20 @@ li {
     width: 550px;
     height: 310px;
     margin: 60px auto auto auto;
-    overflow: hidden;
+    overflow: auto;
     background: white;
+    line-height: 1.5;
     right: 125px;
     padding: 0px 15px 40px 15px;
 
 }
 
-#elephant {
+#my-profile-pic {
     float: left;
     padding-right: 15px;
     height: auto;
     width: 200px;
+
 }
 
 /* footer styling */
@@ -95,7 +106,7 @@ footer {
     color: white;
     margin: 45px -30px 0px -20px;
     text-align: center;
-    border-top: teal 10px solid;
+    border-top: lightseagreen 10px solid;
    
 }
 
@@ -122,7 +133,7 @@ input[type=submit] {
    background-color: teal;
    text-align: center;
    padding: 10px 20px;
-   border: teal solid 1px;
+   border: lightseagreen solid 1px;
 
 }
 
@@ -132,7 +143,49 @@ input[type=submit]:hover {
 }
 
 input[type=submit]:active {
-    background-color: rgb(124, 255, 248);
+    background-color: rgb(7, 209, 209);
+
 }
+
+/* portfolio page styling */
+
+#main-content {
+    position: center;
+    width: 650px;
+    height: 400px;
+    margin: 60px auto auto auto;
+    overflow: scroll;
+    background: white;
+    right: 125px;
+    padding: 0px 15px 40px 15px;
+
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    overflow: scroll;
+
+}
+
+.image-text {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    background: lightseagreen;
+    color: white;
+    padding: 20px 0px;
+
+}
+
+.image-text:hover {
+    background-color: rgb(7, 209, 209);
+
+}
+
+
+
 
 
