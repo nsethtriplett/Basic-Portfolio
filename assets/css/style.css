@@ -89,6 +89,7 @@ li {
 
 }
 
+
 #my-profile-pic {
     float: left;
     padding-right: 15px;
@@ -145,6 +146,10 @@ input[type=submit]:hover {
 input[type=submit]:active {
     background-color: rgb(7, 209, 209);
 
+}
+
+.contact {
+    color: lightseagreen;
 }
 
 /* portfolio page styling */
